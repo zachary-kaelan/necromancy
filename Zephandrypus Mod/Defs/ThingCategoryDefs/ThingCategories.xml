@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Necromancy</defName>
+		<label>necromancy</defName>
+		<parent>Root</parent>
+		<resourceReadoutRoot>true</resourceReadoutRoot>
+		<iconPath>UI/Icons/ThingCategories/Necromancy</iconPath>
+	</ThingCategoryDef>
+</Defs>

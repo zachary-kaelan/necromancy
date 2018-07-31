@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>KnowCorpseWasted</defName>
+		<durationDays>10</durationDays>
+		<stackedEffectMultiplier>0.75</stackedEffectMultiplier>
+		<stackLimit>5</stackLimit>
+		<stages>
+			<li>
+				<label>buried in sarcophagus</label>
+				<description>This colony buried someone in an ornamented sarcophagus. What a waste of a potential slave.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

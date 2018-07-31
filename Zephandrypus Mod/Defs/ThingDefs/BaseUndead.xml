@@ -1,0 +1,29 @@
+<AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+    <defName>Undead</defName>
+    <label>undead</label>
+    <description>An unnatural but mindless construct, obeying whoever created them without question nor thought.</description>
+    <alienRace>
+        <generalSettings>
+			<immuneToAge>true</immuneToAge>
+			
+        </generalSettings>
+        <graphicPaths>
+
+        </graphicPaths>
+        <hairSettings>
+
+        </hairSettings>
+        <pawnKindSettings>
+
+        </pawnKindSettings>
+        <thoughtSettings>
+
+        </thoughtSettings>
+        <relationSettings>
+
+        </relationSettings>
+        <raceRestriction>
+
+        </raceRestriction>
+    </alienRace>
+</AlienRace.ThingDef_AlienRace>

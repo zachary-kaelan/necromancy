@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Lich Death</defName>  
+    <label>lich-die</label>  
+    <description>Wail of a dying lich.</description>  
+    <eventNames />  
+    <subSounds>
+      <li>
+        <name>lich-die</name>      
+        <onCamera>False</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sounds/lich-die</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45</min>        
+          <max>55</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.85</min>        
+          <max>1.15</max>
+        </pitchRange>      
+        <distRange>
+          <min>5</min>        
+          <max>100</max>
+        </distRange>      
+        <startDelayRange>
+          <min>0</min>        
+          <max>1</max>
+        </startDelayRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Lich Hit 1</defName>  
+    <label>lich-hit1</label>  
+    <description>The screams of an angry lich.</description>  
+    <eventNames />  
+    <subSounds>
+      <li>
+        <name>lich-hit-1</name>      
+        <onCamera>True</onCamera>      
+        <muteWhenPaused>True</muteWhenPaused>      
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sounds\lich-hit-1</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45</min>        
+          <max>55</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.85</min>        
+          <max>1.15</max>
+        </pitchRange>      
+        <distRange>
+          <min>5</min>        
+          <max>100</max>
+        </distRange>      
+        <startDelayRange>
+          <min>0</min>        
+          <max>1</max>
+        </startDelayRange>       
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Lich Hit 2</defName>  
+    <label>lich-hit2</label>  
+    <description>The angry cry of a lich in pain.</description>  
+    <eventNames />  
+    <subSounds>
+      <li>
+        <name>lich-hit-2</name>      
+        <onCamera>True</onCamera>      
+        <muteWhenPaused>True</muteWhenPaused>      
+        <tempoAffectedByGameSpeed>True</tempoAffectedByGameSpeed>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sounds\lich-hit-2</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>45</min>        
+          <max>55</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.85</min>        
+          <max>1.15</max>
+        </pitchRange>      
+        <distRange>
+          <min>5</min>        
+          <max>100</max>
+        </distRange>      
+        <startDelayRange>
+          <min>0</min>        
+          <max>1</max>
+        </startDelayRange>       
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
